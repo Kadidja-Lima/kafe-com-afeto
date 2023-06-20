@@ -1,0 +1,132 @@
+.home{
+height: auto;
+}
+
+.banner{
+  margin-top: -16px;
+ }
+
+#banner-img{
+  width: 100%;
+  height: 350px;
+
+}
+
+.tittle{
+  font: size 100px;
+  color:#743822;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  justify-content:space-around;
+  margin-top: 15px;
+
+}
+
+.icon-location,
+.icon-credit,
+.icon-medal,
+.icon-whatsapp{
+  color:#743822;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+
+}
+
+#icon{
+  font-size: 60px;
+  color: #bd8a78;
+
+}
+
+.icon-text{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+.icon-text>h2{
+  font-size: 18px;
+
+}
+
+.evaluation-total{
+  height: 500px;
+}
+
+.evaluation-tittle {
+  color: #743822;
+  text-align: center;
+  margin-top: 40px;
+  background-color: #bd8a785a;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.evaluation-tittle>h1{
+  margin: auto;
+}
+
+.evaluation{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns:200px;
+  grid-template-rows:60px;
+  grid-template-areas:"evaluation-one evaluation-twoo evaluation-three evaluation-four";
+  justify-content:space-around;
+
+}
+
+.evaluation-one,
+.evaluation-twoo,
+.evaluation-three,
+.evaluation-four
+{
+  color:#743822;
+  line-height: 1.7em;
+  width: 200px;
+  text-align: center;
+}
+
+#icon-star{
+  color:#b0811a
+}
+
+.owl-cesta{
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+#cesta{
+  width: auto;
+  height: 350px;
+  border-radius: 3%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.slide-img p{
+  font-size: 15px;
+  color: #743822;
+  align-items: center;
+  line-height: 1.5em;
+  font-weight: 0;
+  cursor: pointer;
+}
+
+.active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.slide-img:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+

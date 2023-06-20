@@ -1,0 +1,29 @@
+<header>
+  <div class="menupage">
+    <div class ="logo" id="logo">
+      <a routerLink="">
+      <img src="/assets/Kafe_remove1.png">
+      </a>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="O que deseja procurar?"/>
+      <fa-icon [icon] = "faMagnifyingGlass" id="faMagnifyingGlass"></fa-icon>
+    </div>
+    <div class ="icons">
+      <a routerLink="login">
+      <fa-icon [icon] = "faCircleUser" id="icon"></fa-icon>
+      </a>
+      <a routerLink="buy">
+      <fa-icon [icon] = "faBasketShopping" id="icon"></fa-icon>
+      </a>
+    </div>
+  </div>
+<nav>
+    <ul class="menu">
+      <li><a routerLink="catalog">Catálogo</a></li>
+      <li><a routerLink="celebratory">Datas Comemotativas</a></li>
+      <li><a routerLink="corporate">Avaliação</a></li>
+      <li><a routerLink="contact">Contato</a></li>
+    </ul>
+</nav>
+</header>

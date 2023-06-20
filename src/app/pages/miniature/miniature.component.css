@@ -1,0 +1,11 @@
+img{
+width: 125px;
+height: auto;
+padding: 3px;
+}
+
+.selected {
+  background-color: #74382267;
+}
+
+

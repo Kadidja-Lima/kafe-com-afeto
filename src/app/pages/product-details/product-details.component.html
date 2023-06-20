@@ -1,0 +1,29 @@
+
+<div class = "produtos-container">
+    <div class = "poduto-image" *ngIf="produto">
+      <img [src]="imageDefault"
+      [redZoom]="imageDefault"
+      redZoomClass="red-zoom--style--window"><!--os [] indicam que o caminho da imagem com base em uma propriedade-->
+    </div>
+    <div class = "miniature">
+      <app-miniature [images]="produto.images" (onClickImage)="changeImageDefault($event)"></app-miniature><!--Vai chamar a função no pai quando ocorrer o evento no filho-->
+    </div>
+  <div class = "description">
+    <div class="products">
+      <h1>{{ produto.name }}</h1>
+      <h2>R$ {{ produto.price }}</h2>
+      <p>{{ produto.description }}</p>
+    </div>
+    <div class="itens">
+      <p>Ítens:</p>
+      <ul>
+        <li *ngFor="let item of produto.items">{{ item }}</li>
+      </ul>
+    </div>
+    <div class="button">
+      <button>COMPRAR</button>
+    </div>
+  </div>
+ </div>
+
+

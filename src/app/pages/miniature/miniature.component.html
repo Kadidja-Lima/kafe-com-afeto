@@ -1,0 +1,6 @@
+<div class="miniature-container">
+  <div class="miniature-image" *ngFor="let image of images" (click)="clickImage(image)" [class.selected]="image === selectedImage">
+    <img [src]="image" alt="Miniature Image">
+  </div>
+</div>
+

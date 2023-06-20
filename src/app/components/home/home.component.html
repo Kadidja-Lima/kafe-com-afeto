@@ -1,0 +1,138 @@
+<div class="home">
+  <div class="banner">
+    <ngb-carousel>
+      <ng-template ngbSlide>
+        <div class="banner">
+          <img src="/assets/bannerA.png" id="banner-img"/>
+        </div>
+        </ng-template>
+      <ng-template ngbSlide>
+        <div class="banner">
+          <img src="/assets/bannerB.png" id="banner-img" >
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+  <div class = "icons">
+    <div class="icon-location">
+      <fa-icon [icon] = "faMapLocationDot" id="icon"></fa-icon>
+      <div class = icon-text>
+        <h2>Fazemos enterga</h2>
+        <p>Entregamos em até 24 hs</p>
+      </div>
+    </div>
+    <div class="icon-credit">
+      <fa-icon [icon] = "faCreditCard" id="icon"></fa-icon>
+      <div class = icon-text>
+        <h2>Aceitamos Cartão</h2>
+        <p>Pix ou transferêmcia</p>
+      </div>
+    </div>
+    <div class="icon-medal">
+      <fa-icon [icon] = "faMedal" id="icon"></fa-icon>
+      <div class = icon-text>
+        <h2>Garantia de Satisfação</h2>
+        <p>Confiança dos clientes</p>
+      </div>
+    </div>
+    <div class="icon-whatsapp">
+      <fa-icon [icon] = "faWhatsapp" id="icon"></fa-icon>
+      <div class = icon-text>
+        <h2>Atendimendo pelo Whatsapp</h2>
+        <p>Fale Conosco</p>
+      </div>
+    </div>
+  </div>
+  <div class="owl-cesta">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide let-index="index">
+        <div class="slide-img" [ngClass]="{ 'active': activeSlideIndex === index }" (click)="setActiveSlideIndex(index)">
+          <img src="/assets/cesta1Remove.png" alt="img 1" id="cesta">
+          <p>Café da Manhã Especial + Balões</p>
+          <p>R$ 181,00</p>
+          <p>ou 3x de R$ 59,90</p>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide let-index="index">
+        <div class="slide-img" [ngClass]="{ 'active': activeSlideIndex === index }" (click)="setActiveSlideIndex(index)">
+          <img src="/assets/cesta2Remove.png" alt="img 2" id="cesta">
+          <p>Café da Manhã Especial + Balões</p>
+          <p>R$ 181,00</p>
+          <p>ou 3x de R$ 59,90</p>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide let-index="index">
+        <div class="slide-img" [ngClass]="{ 'active': activeSlideIndex === index }" (click)="setActiveSlideIndex(index)">
+          <img src="/assets/cesta3Remove.png" alt="img 3" id="cesta">
+          <p>Café da Manhã Especial + Balões</p>
+          <p>R$ 181,00</p>
+          <p>ou 3x de R$ 59,90</p>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide let-index="index">
+        <div class="slide-img" [ngClass]="{ 'active': activeSlideIndex === index }" (click)="setActiveSlideIndex(index)">
+          <img src="/assets/cesta4Remove.png" alt="img 4" id="cesta">
+          <p>Café da Manhã Especial + Balões</p>
+          <p>R$ 181,00</p>
+          <p>ou 3x de R$ 59,90</p>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide let-index="index">
+        <div class="slide-img" [ngClass]="{ 'active': activeSlideIndex === index }" (click)="setActiveSlideIndex(index)">
+          <img src="/assets/cesta5Remove.png" alt="img 5" id="cesta">
+          <p>Café da Manhã Especial + Balões</p>
+          <p>R$ 181,00</p>
+          <p>ou 3x de R$ 59,90</p>
+        </div>
+      </ng-template>
+      <ng-template carouselSlide let-index="index">
+        <div class="slide-img" [ngClass]="{ 'active': activeSlideIndex === index }" (click)="setActiveSlideIndex(index)">
+          <img src="/assets/cesta6Remove.png" alt="img 6" id="cesta">
+          <p>Café da Manhã Especial + Balões</p>
+          <p>R$ 181,00</p>
+          <p>ou 3x de R$ 59,90</p>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+  <div class="evalution-total">
+    <div class="evaluation-tittle">
+      <h1>Avaliação dos Clientes</h1>
+    </div>
+    <div class="evaluation">
+      <div class="evaluation-one">
+        <h2>Maria Joana</h2>
+        <ng-container *ngFor="let i of [1,2,3,4,5]">
+          <fa-icon [icon]="faStar" id="icon-star"></fa-icon>
+        </ng-container>
+        <p>Experiência maravilhosa, produto entregue no dia e na hora combinados, atendimento perfeito.
+          Recomendo muito a todos, amei!</p>
+      </div>
+      <div class="evaluation-twoo">
+        <h2>Maria Joana</h2>
+        <ng-container *ngFor="let i of [1,2,3,4,5]">
+          <fa-icon [icon]="faStar" id="icon-star"></fa-icon>
+        </ng-container>
+        <p>Experiência maravilhosa, produto entregue no dia e na hora combinados, atendimento perfeito.
+          Recomendo muito a todos, amei!</p>
+      </div>
+      <div class="evaluation-three">
+        <h2>Maria Joana</h2>
+        <ng-container *ngFor="let i of [1,2,3,4,5]">
+          <fa-icon [icon]="faStar" id="icon-star"></fa-icon>
+        </ng-container>
+        <p>Experiência maravilhosa, produto entregue no dia e na hora combinados, atendimento perfeito.
+          Recomendo muito a todos, amei!</p>
+      </div>
+      <div class="evaluation-four">
+        <h2>Maria Joana</h2>
+        <ng-container *ngFor="let i of [1,2,3,4,5]">
+          <fa-icon [icon]="faStar" id="icon-star"></fa-icon>
+        </ng-container>
+        <p>Experiência maravilhosa, produto entregue no dia e na hora combinados, atendimento perfeito.
+          Recomendo muito a todos, amei!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
