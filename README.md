@@ -1,5 +1,4 @@
-KafeComAfeto
-Este é um projeto feito com Angular, que consiste em um site para usuários interessados em comprar cestas de café da manhã. No momento, o projeto não possui a opção de compra por cartão de crédito. O redirecionamento para a compra vai ser feita para o WhatsApp. Este é um projeto real que será utilizado efetivamente.
+
 
 Instruções
 Este projeto foi gerado com Angular CLI versão 15.1.2.
