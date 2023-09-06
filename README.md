@@ -4,7 +4,7 @@ Instruções
 Este projeto foi gerado com Angular CLI versão 15.1.2.
 
 Servidor de desenvolvimento
-Execute ng serve para iniciar um servidor de desenvolvimento. Navegue até http://localhost:4200/. O aplicativo será recarregado automaticamente se você fizer alterações em qualquer um dos arquivos de origem.
+Execute ng serve para iniciar um servidor de desenvolvimento. O aplicativo será recarregado automaticamente se você fizer alterações em qualquer um dos arquivos de origem.
 
 Estrutura de código
 Execute ng generate component component-name para gerar um novo componente. Você também pode usar ng generate directive|pipe|service|class|guard|interface|enum|module.
